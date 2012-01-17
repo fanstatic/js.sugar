@@ -17,5 +17,6 @@ Usage
 =====
 
 ``from js.sugar import sugar``
+
 ``sugar.need()``
 
