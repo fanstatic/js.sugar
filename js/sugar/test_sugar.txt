@@ -1,0 +1,10 @@
+How to use?
+===========
+
+
+You can import ``XXX`` from ``js.sugar`` and ``need`` it where you want
+these resources to be included on a page::
+
+  >>> from js.sugar import XXX # XXX fix this test
+  >>> XXX.need()
+
