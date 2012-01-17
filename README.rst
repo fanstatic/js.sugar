@@ -16,6 +16,6 @@ directory in ``js.sugar``) are published to some URL.
 Usage
 =====
 
-```from js.sugar import sugar
-sugar.need()```
+``from js.sugar import sugar``
+``sugar.need()``
 
