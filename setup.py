@@ -10,11 +10,11 @@ version = '1.1.3'
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-long_description = (read('README.txt')
+long_description = (read('README.rst')
                     + '\n' +
                     read('js', 'sugar', 'test_sugar.txt')
                     + '\n' +
-                    read('CHANGES.txt'))
+                    read('CHANGES.rst'))
 
 setup(name='js.sugar',
       version=version,
